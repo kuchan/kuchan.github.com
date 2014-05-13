@@ -1,4 +1,4 @@
-var defaultEncoding = 2; // 1: 繁体中文, 2: 简体中文
+var defaultEncoding = 1; // 1: 繁体中文, 2: 简体中文
 var translateDelay = 0;
 var cookieDomain = "http://kuchan.net"; //更改为你的博客网址
 var msgToTraditionalChinese = "简/繁"; //此处可以更改为你想要显示的文字
