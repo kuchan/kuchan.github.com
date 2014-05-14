@@ -163,7 +163,7 @@ article.link .title a:after {
   vertical-align: super;
 }
 article .post-content {
-  padding: 20px 20px 15px 77px;
+  padding: 20px 50px 15px 50px;
   margin-bottom: 50px;
   position: relative;
 }
@@ -287,35 +287,6 @@ article .gallery .next:before {
   content: '\f054';
   right: 10px;
 }
-article header .icon {
-  width: 32px;
-  height: 32px;
-  margin-right: 25px;
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  color: #2980b9;
-}
-@media screen and (max-width: 600px) {
-  article header .icon {
-    display: none;
-  }
-}
-article header .icon:before {
-  position: absolute;
-  font: 32px FontAwesome;
-  top: 0;
-  left: 0;
-  width: 32px;
-  text-align: center;
-}
-article header time {
-  color: #999;
-  font: 0.9em Telex, "方正粗活意繁体", "Microsoft YaHei", "微软雅黑", Helvetica Neue, Helvetica, Arial, sans-serif;
-  margin-bottom: 5px;
-  display: block;
-  line-height: 1;
-}
 article header .title {
   font-weight: normal;
 }
@@ -325,6 +296,13 @@ article header .title a {
 article header .title a:hover {
   color: #2980b9;
   text-decoration: none;
+}
+article header time {
+  color: #999;
+  font: 0.9em Telex, "方正粗活意繁体", "Microsoft YaHei", "微软雅黑", Helvetica Neue, Helvetica, Arial, sans-serif;
+  margin-bottom: 5px;
+  display: block;
+  line-height: 1;
 }
 article .entry {
   text-align: justify;
